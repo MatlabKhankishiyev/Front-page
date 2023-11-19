@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.div1{
+    width: 100%;
+    height: 651px;
+    display: flex;
+    flex-direction: row;
+}
+.head1{
+    width: 50%;
+    height: 651px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(248, 248, 248);
+}
+.head2{
+    width: 50%;
+    height: 651px;
+    display: flex;
+    background-color: rgb(213, 196, 85);
+}
+.headOne{
+    width: 83%;
+    height: 651px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headTwo{
+    width: 83%;
+    height: 651px;
+    background-image: url(./jschmidt.png);
+    background-size: cover;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.firstDiv{
+    width: 100%;
+    height: 150px;
+}
+.secondDiv{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.thirdDiv{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.forthDiv{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.a1{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bolder;
+    color: black;
+}
+.p1{
+    color: rgb(213, 196, 85);
+    font-size: 18px;
+}
+.p2{
+    font-size: 90px;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+}
+.p3{
+    font-size: 90px;
+    font-weight: bold;
+}
+.p4{
+    color: rgb(149, 149, 149);
+}
+.one{
+    width: 35%;
+    height: 55px;
+    background-color: rgb(213, 196, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.fa-solid{
+    margin-left: 15px;
+}
+.two{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 55px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.one:active{
+    outline: 4px solid rgb(147, 189, 250);
+}
+.two:active{
+    outline: 4px solid rgb(147, 189, 250);
+}
+.duyme{
+    margin-top: 30px;
+    width: 5%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 196, 85);
+    border: none;
+    cursor: pointer;
+}
+.newDiv{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.ul{
+    list-style-type: none;
+    width: 80%;
+    height: 260px;
+}
+.li1{
+    height: 40px;
+    cursor: pointer;
+}
